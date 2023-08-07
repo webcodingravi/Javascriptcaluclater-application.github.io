@@ -1,0 +1,42 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+form input:focus{
+    box-shadow: none!important;
+
+}
+
+button:focus {
+  box-shadow: none!important;
+
+  
+}
+
+.container input[type=text] {
+    height: 60px;
+    font-size: 20px;
+}
+
+.container input[type=button] {
+    padding: 10px;
+    width: 79px;
+    height: 50px;
+    margin: 10px 3px;
+    font-size: 18px;
+}
+
